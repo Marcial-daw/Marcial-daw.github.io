@@ -1,0 +1,61 @@
+Mega
+
+
+
+GitHub crear cuenta nombreapellidoCODE
+repositorio code privado colaborador profeprogramacion
+
+Software control versiones
+
+username y email para la gestion de usuario
+    git config --global user.username "nUsuario"
+    git config --global user.email "dEmail"
+
+Crear Repositorio: 
+    git init    Inicio de proyecto, creo dos directorios:
+                Area de ensayo (staging area)   Area de almacenamiento temporal
+                Repositorio Local               Area de almacen de copias de versiones
+
+Respaldo ficeros:
+    git status  Lista estado de ficheros/carpetas
+        -s      Lista corta 
+
+    git add fichero     Añade archivo/directorio del area de trabajo al area temporal
+            --all -A    Todos
+            .           Toda la carpeta
+
+    git commit          Mueve archivo/directorio del area temporal al repositorio local 
+        -m "descrip"    Para añadir descripcion
+        -A              añade y commit
+
+git log                 Ver listado de commit
+
+git reset --hard  etiquetacommit        restaura una version   
+
+Manejo ramas:
+git branch              Lista ramas
+        nombreRama      Añade rama
+        -d nombreRama   Elimina nombreRama
+
+git checkout nombreRama Cambia de rama
+        -b nombreRama   Crea nueva rama si no existe y se cambia a ella
+
+git merge nombreRama    Fusiona la nombreRama con la actual  ** Siempre desde la rama master
+
+desacarga repositorio
+git remote add origin URL
+
+
+
+
+git --version           Version de git  
+git command -help
+git help --all 
+mkdir nombreCarpeta     Crea carpeta
+cd nombreCarpeta        Cambia de carpeta
+
+*********************
+git clone
+
+git push
+************
