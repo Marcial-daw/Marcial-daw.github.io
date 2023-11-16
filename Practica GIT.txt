@@ -1,4 +1,4 @@
-Crear cuenta github:        Marcial-daw
+githubCrear cuenta github:        Marcial-daw
 Crear repositoio:           CODE
 Direccion del repositorio : https://github.com/Marcial-daw/code.git
 Crear repositorio local:    
@@ -10,4 +10,4 @@ Crear repositorio local:
 Enviar el repositorio local a GitHub
     Desde D:\garbelmar\Git_CODE
     git remote add origin https://github.com/Marcial-daw/code.git
-cambios en el texto
+cambios en el texto  desde github
